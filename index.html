@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web APIs Quiz</title>
+    <link rel="stylesheet" href="./Assets/css/styles.css">
+</head>
+<body>
+    <Header id="headerContainer">
+        <!-- View HighScore Link-->
+        <a href="viewhighscores.html"> View highscore </a>
+        <!-- Timer -->
+        <p >Time: <span id="countdownTimer">0</span></p>
+    </Header>
+    <main id="quiz-box">
+        <!-- Questionarie Apend-->
+        <div id="startContainer">
+            <h1>Welcome to the Quiz</h1>
+            <p>Click the button to start the Quiz</p>
+             <button id="start">Start</button>
+        </div>
+       
+        <div id="questionContainer" class="hide">
+            <h3 id="questionTitle"></h3>
+            <div id="questionChoices"></div>
+        </div>
+
+        <div id="gameoverContainer" class="hide">
+            <h3>Game over</h3>
+            <p>Your final score is: <span id="finalScore"></span></p>
+            <p>Please enter your initials:
+                <input type="text" id="userInitials"/>
+                <button id="submitBtn" type="button">submit</button>
+            </p>
+        </div>
+        <div id="highscoresContainer" class="hide">
+            <ol id="list"></ol>
+        </div>
+    </main>
+    <script src="Assets\js\script.js"></script>
+</body>
+</html>
