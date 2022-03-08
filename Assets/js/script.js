@@ -29,7 +29,7 @@ var list = document.querySelector("list");
 // Quiz Cards strings
 var stringQuizCards = [
     {
-        question: "What is the names of Snow White's best Friends?",
+        question: "What is the names of SnowWhite's best friends?",
         choices: [
             'Huey, Dewey, and Louie', 
         "Dopey, Sneezy, Bashful, Doc, Grumpy, Happy, and Sleepy", 
@@ -45,7 +45,7 @@ var stringQuizCards = [
     },
     {
         question: "Which Actor played Connan the Barbarian?",
-        choices: ['Sylvester Stallone', "Denny DeVitto", "choice 3", "Arnold Schwarzenegger"],
+        choices: ['Sylvester Stallone', "Denny DeVitto", "Michael Jackson", "Arnold Schwarzenegger"],
         answer: "Arnold Schwarzenegger"
     },
     {

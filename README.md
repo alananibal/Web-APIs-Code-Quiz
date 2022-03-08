@@ -1,42 +1,43 @@
 # 04 Web APIs: Code Quiz
 
-As you proceed in your career as a web developer, you will probably be asked to complete a coding assessment, which is typically a combination of multiple-choice questions and interactive challenges. For this challenge, you will build a timed code quiz that's made up of multiple-choice questions. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
+This project’s goal was to build a timed code quiz that's made up of multiple-choice questions. This app runs in a browser and feature dynamically updated HTML and CSS powered by JavaScript code. 
 
-## User Story
+## Functionality
 
-```
-AS A coding boot camp student
-I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
-SO THAT I can gauge my progress compared to my peers
-```
+When user clicks the start button:
+- HTMl elements are dinamicaly created and hidden to present the questions and answers choices.
+- The contdown timmer at the top right corner that will represents users' score starts.
+When the user choses an aswer the next question is dinamicaly generated.
+-if the user choses the incorrect answer, 5 seconds penalty is subtracted from the time/score.
+When the user finishes the quiz score points and an opition to add inisials is displayed.
+-when the user submit it's initials the submit button takes to another page with the top 10 storaged Highscores storaged in LocalStorage.
 
-## Acceptance Criteria
+## suported Interfacess
 
-```
-GIVEN I am taking a code quiz
-WHEN I click the Start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and score
-```
+* Desktop Browsers for Viewing Content
+    -Internet Explorer 11
+    -Microsoft Edge (latest version)
+    -Google Chrome (latest version)
+    -Firefox (latest version)
+    -Safari (latest version)
+* Mobile Browsers for Viewing Content
+    -Safari in Apple iOS 12 or later
+    -Google Chrome (latest version) in Apple iOS 12 or later
+    -Google Chrome (latest version) in Android OS 6 or later
+* Required Browser Settings for Viewing Content
+    -JavaScript must be enabled
+    -Font downloads must be enabled
+    -Turn off Compatibility View in Internet Explorer
+* Screen Readers for Viewing Content
+    -JAWS (latest version)
+    -NVDA (latest version)
+    -VoiceOver (latest version)
+    -TalkBack (latest version)
 
-The following animation demonstrates the application functionality:
+### List of Files:
+    -index.html
+    -readme.txt
+    -assets folder
 
-![Demonstration of the Coding Quiz Challenge.](./Assets/04-web-apis-homework-demo.gif)
-
-### Review
-
-You are required to submit the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
----
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+# Credits
+	    Alan Anibal De Souza Ramos
