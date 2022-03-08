@@ -36,8 +36,11 @@ When the user finishes the quiz score points and an opition to add inisials is d
 
 ### List of Files:
     -index.html
+    -highscoresdisplay.html
     -readme.txt
     -assets folder
+    -css folder
+    -js folder
 
 # Credits
 	    Alan Anibal De Souza Ramos
