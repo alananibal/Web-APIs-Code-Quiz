@@ -6,8 +6,8 @@ This project’s goal was to build a timed code quiz that's made up of multiple-
 
 When user clicks the start button:
 - HTMl elements are dinamicaly created and hidden to present the questions and answers choices.
-- The contdown timmer at the top right corner that will represents users' score starts.
-When the user choses an aswer the next question is dinamicaly generated.
+- The contdown timmer at the top right corner that represents the users score starts.
+When the user chooses an aswer the next question is dinamicaly generated.
 -if the user choses the incorrect answer, 5 seconds penalty is subtracted from the time/score.
 When the user finishes the quiz score points and an opition to add inisials is displayed.
 -when the user submit it's initials the submit button takes to another page with the top 10 storaged Highscores storaged in LocalStorage.
