@@ -8,7 +8,7 @@ function run(){
 
 
     //create elements to display each score
-    for (var i = 0; i < highscores.length; i++) {
+    for (var i = 0; i < 5; i++) {
         var li =  document.createElement('li')
         li.textContent = highscores[i].initials + ' - ' + highscores[i].score;
 

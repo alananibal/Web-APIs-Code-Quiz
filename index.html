@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="./Assets/css/styles.css">
 </head>
 <body>
-    <Header id="headerContainer">
+    <header id="headerContainer">
         <!-- View HighScore Link-->
-        <a href="viewhighscores.html"> View highscore </a>
+        <a href="highscoresdisplay.html"> View highscore </a>
         <!-- Timer -->
-        <p >Time: <span id="countdownTimer">0</span></p>
-    </Header>
+        <h2>Time: <span id="countdownTimer">0</span></h2>
+    </header>
     <main id="quiz-box">
         <!-- Questionarie Apend-->
         <div id="startContainer">
@@ -23,15 +23,16 @@
         </div>
        
         <div id="questionContainer" class="hide">
-            <h3 id="questionTitle"></h3>
-            <div id="questionChoices"></div>
+            <h2 id="questionTitle"></h2>
+            <div class="question-choices-div" id="questionChoices"></div>
         </div>
 
         <div id="gameoverContainer" class="hide">
-            <h3>Game over</h3>
+            <h1>Game over</h1>
             <p>Your final score is: <span id="finalScore"></span></p>
             <p>Please enter your initials:
                 <input type="text" id="userInitials"/>
+                <br>
                 <button id="submitBtn" type="button">submit</button>
             </p>
         </div>

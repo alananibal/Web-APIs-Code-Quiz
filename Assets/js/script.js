@@ -29,24 +29,32 @@ var list = document.querySelector("list");
 // Quiz Cards strings
 var stringQuizCards = [
     {
-        question: "question 1",
-        choices: ['choice 1', "choice 2", "choice 3", "choice 4"],
-        answer: "choice 1"
+        question: "What is the names of Snow White's best Friends?",
+        choices: [
+            'Huey, Dewey, and Louie', 
+        "Dopey, Sneezy, Bashful, Doc, Grumpy, Happy, and Sleepy", 
+        "Timon and Pumbaa", 
+        "Moe, Curly and Larry"
+        ],
+        answer: "Dopey, Sneezy, Bashful, Doc, Grumpy, Happy, and Sleepy"
     },
     {
-        question: "question 2",
-        choices: ['choice 1', "choice 2", "choice 3", "choice 4"],
-        answer: "choice 1"
+        question: "Which contry won 5 Fifa World Cups?",
+        choices: ['Brazil', "Argentina", "France", "Italy"],
+        answer: "Brazil"
     },
     {
-        question: "question 3",
-        choices: ['choice 1', "choice 2", "choice 3", "choice 4"],
-        answer: "choice 1"
+        question: "Which Actor played Connan the Barbarian?",
+        choices: ['Sylvester Stallone', "Denny DeVitto", "choice 3", "Arnold Schwarzenegger"],
+        answer: "Arnold Schwarzenegger"
     },
     {
-        question: "question 4",
-        choices: ['choice 1', "choice 2", "choice 3", "choice 4"],
-        answer: "choice 1"
+        question: "What is the world record for most hot dogs eaten in an hour?",
+        choices: ['Joey Chestnut with 76 in 10 minutes', 
+        "Emile Rattatulie with 100 in 20 minutes", 
+        "Jonah Hill with 300 a Day", 
+        "homer Simpson with 55 wrapped on doughnuts"],
+        answer: "Joey Chestnut with 76 in 10 minutes"
     }
 ];
 
